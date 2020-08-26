@@ -1,0 +1,126 @@
+input.form__input {
+    max-width: 260px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 0.1rem solid black;
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+button.form__button {
+    height: 100%;
+    max-width: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    border-radius: 10px;
+    margin-top: auto;
+    border: 0.1rem solid #d6d6d642;
+}
+
+button.form__button:hover {
+    background-color: #d6d6d642;
+}
+
+input.form__input:focus {
+    outline: none;
+}
+
+header.App-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #115293;
+    color: white;
+    margin-bottom: 20px;
+    border-bottom: 0.1rem solid black;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+section.recipe__wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: flex-start;
+    justify-items: center;
+    grid-gap: 1rem;
+    margin: 0 auto;
+}
+
+.recipe___item {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+img.recipe__image {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+    margin-bottom: 1rem;
+}
+
+.recipe__info {
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+button.recipe__button {
+    margin: 0.4rem 0;
+    width: 150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: snow;
+    border: 1px solid;
+}
+
+button.recipe__button a {
+    text-decoration: none;
+    font-size: 1em;
+    color: black;
+}
