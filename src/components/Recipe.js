@@ -38,7 +38,7 @@ class Recipe extends React.Component{
                         <div className="recipe-detail__left">
                             <img src={recipe.image} alt="" className="recipe-detail__image"/>
                         </div>
-                        <div className="recipe-detai__right">
+                        <div className="recipe-detail__right">
                             <h4 className="recipe-detail__publisher">Publisher: <span>{recipe.source}</span></h4>
                             <ul style={{ paddingLeft:"0",listStyle:'inside',fontSize:'14px'}}>
                                 {
@@ -49,9 +49,9 @@ class Recipe extends React.Component{
                                     })
                                 }
                             </ul>
-                            <p className="active-recipe__website">Website: <span><a href={recipe.url}>{recipe.url}</a></span> </p>
+                            <p className="recipe-detail__website">Website: <span><a href={recipe.url}>{recipe.url}</a></span> </p>
                         </div>
-                        <button className="active-recipe__button">
+                        <button className="recipe-detail__button">
                             <Link to="/">Go Back</Link>
                         </button>
                     </div>
