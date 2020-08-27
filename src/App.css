@@ -73,7 +73,7 @@ header.App-header {
 section.recipe__wrapper {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     align-items: flex-start;
     justify-items: center;
     grid-gap: 1rem;
@@ -82,7 +82,7 @@ section.recipe__wrapper {
 
 .recipe___item {
     width: 100%;
-    height: 100%;
+    height: 400px;
     margin: 0;
     padding: 0;
     display: flex;
@@ -109,7 +109,7 @@ img.recipe__image {
 }
 
 button.recipe__button {
-    margin: 0.4rem 0;
+    margin: auto 0 20px;
     width: 150px;
     height: 30px;
     display: flex;
@@ -171,4 +171,13 @@ button.recipe-detail__button a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+}
+
+h5.recipe__name {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.recipe__info p {
+    font-size: 1.2em;
 }

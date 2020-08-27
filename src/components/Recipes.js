@@ -20,7 +20,7 @@ const Recipes = props => {
                                         {recipe.recipe.label.length < 20 ? `${recipe.recipe.label}` : `${recipe.recipe.label.substring(0, 25)}...`}
                                     </h5>
                                     <p><b>Calories: </b>{Math.round(recipe.recipe.calories)} cal.</p>
-                                    <p className="recipe__description">Source: <span>{recipe.recipe.source}</span></p>
+                                    <p><b>Source:</b> <span>{recipe.recipe.source}</span></p>
                                 </div>
                                 <button className="recipe__button">
                                     <Link to={{
